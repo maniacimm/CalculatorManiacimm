@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="TextSize">100sp</dimen>
+    <dimen name="MarginTopText">50dp</dimen>
+    <dimen name="PaddingLeftAndRight">50dp</dimen>
+    <dimen name="MarginLeft">20sp</dimen>
+    <dimen name="ButtonCE">46sp</dimen>
+    <dimen name="ButtonDecimal">52sp</dimen>
+    <dimen name="ButtonPosNeg">45sp</dimen>
+    <dimen name="EqualsButton">103sp</dimen>
+</resources>

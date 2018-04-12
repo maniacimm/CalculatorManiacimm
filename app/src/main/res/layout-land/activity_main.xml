@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="@string/TextVal"
+        android:textSize="@dimen/TextSize"
+        android:textAlignment="center"
+        android:layout_above="@+id/gridLayout" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/MarginLeft"
+        android:columnCount="5"
+        android:rowCount="4"
+        android:orientation="horizontal"
+        android:useDefaultMargins="false">
+
+        <Button
+            android:paddingLeft="@dimen/PaddingLeftAndRight"
+            android:paddingRight="@dimen/PaddingLeftAndRight"
+            android:text="@string/Button_7" />
+
+        <Button
+            android:paddingLeft="@dimen/PaddingLeftAndRight"
+            android:paddingRight="@dimen/PaddingLeftAndRight"
+            android:text="@string/Button_8" />
+
+        <Button
+            android:paddingLeft="@dimen/PaddingLeftAndRight"
+            android:paddingRight="@dimen/PaddingLeftAndRight"
+            android:text="@string/Button_9" />
+
+        <Button
+            android:paddingLeft="@dimen/PaddingLeftAndRight"
+            android:paddingRight="@dimen/PaddingLeftAndRight"
+            android:text="@string/Button_add" />
+
+        <Button
+            android:paddingLeft="@dimen/PaddingLeftAndRight"
+            android:paddingRight="@dimen/PaddingLeftAndRight"
+            android:text="@string/Button_c" />
+
+        <Button
+            android:paddingLeft="@dimen/PaddingLeftAndRight"
+            android:paddingRight="@dimen/PaddingLeftAndRight"
+            android:text="@string/Button_4" />
+
+        <Button
+            android:paddingLeft="@dimen/PaddingLeftAndRight"
+            android:paddingRight="@dimen/PaddingLeftAndRight"
+            android:text="@string/Button_5" />
+
+        <Button
+            android:paddingLeft="@dimen/PaddingLeftAndRight"
+            android:paddingRight="@dimen/PaddingLeftAndRight"
+            android:text="@string/Button_6" />
+
+        <Button
+            android:paddingLeft="@dimen/PaddingLeftAndRight"
+            android:paddingRight="@dimen/PaddingLeftAndRight"
+            android:text="@string/Button_minus" />
+
+        <Button
+            android:paddingLeft="@dimen/ButtonCE"
+            android:paddingRight="@dimen/ButtonCE"
+            android:text="@string/Button_ce" />
+
+        <Button
+            android:paddingLeft="@dimen/PaddingLeftAndRight"
+            android:paddingRight="@dimen/PaddingLeftAndRight"
+            android:text="@string/Button_1" />
+
+        <Button
+            android:paddingLeft="@dimen/PaddingLeftAndRight"
+            android:paddingRight="@dimen/PaddingLeftAndRight"
+            android:text="@string/Button_2" />
+
+        <Button
+            android:paddingLeft="@dimen/PaddingLeftAndRight"
+            android:paddingRight="@dimen/PaddingLeftAndRight"
+            android:text="@string/Button_3" />
+
+        <Button
+            android:paddingLeft="@dimen/PaddingLeftAndRight"
+            android:paddingRight="@dimen/PaddingLeftAndRight"
+            android:text="@string/Button_Multiply" />
+
+        <Button
+            android:paddingLeft="@dimen/PaddingLeftAndRight"
+            android:paddingRight="@dimen/PaddingLeftAndRight"
+            android:text="@string/divideButton"
+            android:layout_row="0" />
+
+        <Button
+            android:paddingLeft="@dimen/PaddingLeftAndRight"
+            android:paddingRight="@dimen/PaddingLeftAndRight"
+            android:text="@string/Button_0" />
+        <Button
+            android:paddingLeft="@dimen/ButtonDecimal"
+            android:paddingRight="@dimen/ButtonDecimal"
+            android:text="@string/Button_decimal" />
+        <Button
+            android:paddingLeft="@dimen/ButtonPosNeg"
+            android:paddingRight="@dimen/ButtonPosNeg"
+            android:text="@string/ButtonPosOrNeg" />
+        <Button
+            android:background="@color/calcAccent"
+            android:paddingLeft="@dimen/EqualsButton"
+            android:paddingRight="@dimen/EqualsButton"
+            android:layout_columnSpan="2"
+            android:text="@string/Button_equals"/>
+    </GridLayout>
+
+</RelativeLayout>
